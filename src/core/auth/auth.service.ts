@@ -53,7 +53,6 @@ export class AuthService {
         result.Message = "This email exist";
       }
     } catch (err) {
-      console.log(err);
       result.StatusCode = -1;
       result.Message = "Error";
     }
